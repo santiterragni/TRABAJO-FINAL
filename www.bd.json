@@ -1,0 +1,15 @@
+
+[
+{ "id": 1, "nombre": "Ramen", "precio": 450, "descripcion": "Fideos instantáneos con caldo saborizado en polvo de origen japonés.", "cantidad":1, "stock": 5, "img": "https://http2.mlstatic.com/D_NQ_NP_636812-MLA53380756811_012023-O.webp", "alt": "Ramen Instantáneo"},
+{ "id":2, "nombre": "Salsa de soja", "precio": 1300, "descripcion": "Salsa a base de soja líquida.", "cantidad":1, "stock": 10, "img": "https://http2.mlstatic.com/D_NQ_NP_660875-MLA46165032674_052021-O.webp", "alt": "Salsa de soja"},
+{ "id":3, "nombre": "Palillos", "precio": 500, "descripcion": "Utensilios fabricados con metal.", "cantidad":1, "stock": 22, "img": "https://http2.mlstatic.com/D_NQ_NP_633110-MLA69120774120_042023-O.webp", "alt": "Palillos chinos"},
+{ "id":4, "nombre": "Licor coreano", "precio": 2100, "descripcion": "Bebida alcholica de origen coreano.", "cantidad":1, "stock": 8, "img": "https://http2.mlstatic.com/D_NQ_NP_735901-MLA44986915629_022021-O.webp", "alt": "Licor coreano"},
+{ "id":5, "nombre": "Licor japonés", "precio": 2100, "descripcion": "Bebida alcholica de origen japonés.", "cantidad":1, "stock": 6, "img": "https://http2.mlstatic.com/D_NQ_NP_781455-MLA49897935196_052022-O.webp", "alt": "Licor japonés"},
+{ "id":6, "nombre": "Arroz para sushi", "precio": 700, "descripcion": "Arroz de uso exclusivo para preparación de sushi.", "cantidad":1, "stock": 12, "img": "https://http2.mlstatic.com/D_NQ_NP_635233-MLA54020976810_022023-O.webp", "alt": "Arroz para sushi"},
+{ "id":7, "nombre": "Algas Nori", "precio": 2350, "descripcion": "Algas deshidratadas para consumo.", "cantidad":1, "stock": 9, "img": "https://http2.mlstatic.com/D_NQ_NP_634574-MLA46683070428_072021-O.webp", "alt": "Algas Nori"},
+{ "id":8, "nombre": "Jugo coreano", "precio": 1300, "descripcion": "Jugo de origen coreano en lata.", "cantidad":1, "stock": 5, "img": "https://http2.mlstatic.com/D_NQ_NP_659657-MLA49621869706_042022-O.webp", "alt": "Jugo en lata"},
+{ "id":9, "nombre": "Cerveza japonesa", "precio": 900, "descripcion": "Cervezas de origen japonés en lata.", "cantidad":1, "stock": 7, "img": "https://http2.mlstatic.com/D_NQ_NP_715666-MLA46910285842_072021-O.webp", "alt": "Cerveza japonesa"},
+{ "id":10, "nombre": "Pepero", "precio": 1150, "descripcion": "Golosinas de origen coreano.", "cantidad":1, "stock": 11, "img": "https://http2.mlstatic.com/D_NQ_NP_676819-MLA51076574917_082022-O.webp", "alt": "Pepero"},
+{ "id":11, "nombre": "Set sushi", "precio": 4700, "descripcion": "Set de vasijas de cerámica para sushi.", "cantidad":1, "stock": 4, "img": "https://http2.mlstatic.com/D_NQ_NP_652674-MLA53128500921_012023-O.webp", "alt": "Set sushi"},
+{ "id":12, "nombre": "Vasos japoneses", "precio": 1250, "descripcion": "Vasos de ceramica para licor asiático.", "cantidad":1, "stock": 2, "img": "https://http2.mlstatic.com/D_NQ_NP_739837-MLA50998610955_082022-O.webp", "alt": "Vasos asiáticos"}
+]

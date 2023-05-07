@@ -1,0 +1,36 @@
+
+body {
+    background-color: #F9E79F;
+  }
+  
+  h1 {
+    color: black;
+    text-align: center;
+    font-size: Arial,helvetica,sans-serif; 
+  }
+  
+  p {
+    
+    font-size: 15px Arial,helvetica,sans-serif; 
+        
+  }
+
+  h5 {
+    text-align: center;
+    font-size: 30px Arial,helvetica,sans-serif;
+     
+  }
+
+  img{
+    width: "469";
+    height:"500"
+  }
+
+
+footer {
+    background-color: #7683D7;
+    text-align: center;
+    padding: 20px;
+    font-size: Arial,helvetica,sans-serif
+  }
+

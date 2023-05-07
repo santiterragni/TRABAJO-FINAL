@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Monte Fuji</title>
+    <link href="https://bootswatch.com/5/united/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4452/4452014.png"> 
+    
+    <!--CSS TOASTIFY-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!--CSS SWEET ALERT2-->
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <!--BOOTSTRAP NAVBAR-->
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Monte Fuji 富士山</font>
+                    </font>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Navegación de palanca">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Bazar
+                                    </font>
+                                </font><span class="visually-hidden">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">(actual)</font>
+                                    </font>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Comestibles</font>
+                                </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Bebidas</font>
+                                </font>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Preguntas Frecuentes</font>
+                                </font>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-haspopup="true" aria-expanded="false">
+                                <font style="vertical-align: inherit;">
+                                    <font style="vertical-align: inherit;">Contacto</font>
+                                </font>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Ubicación</font>
+                                    </font>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Teléfonos útiles</font>
+                                    </font>
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Envíos</font>
+                                    </font>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <font style="vertical-align: inherit;">
+                                        <font style="vertical-align: inherit;">Nuestras redes</font>
+                                    </font>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </button>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <img src="./Nueva carpeta/Montefuji.png" title="japón iconos" alt="Monte Fuji" style="float:left; width:200px; height:200px;" >
+        <h1 class="text-center mt-5 mb-3">¡Bienvenidos a la tienda Monte Fuji!</h1>
+       
+        <h2 class="text-center mt-3 mb-5">ようこそ富士山店へ!</h2>
+       
+        <section id = "contenedor_productos" class="container d-flex flex-wrap justify-content-center gap-3">
+          
+
+
+        </section>
+    </main>
+
+
+
+    <!-- BOOTSTRAP Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style=" border-style: solid;border-color: red;" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de compra - ショッピングカート</h1>
+
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="contenedor_carrito">
+                    
+                </div>
+                <div>
+                    <p id="precio_total"></p>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Seguir comprando</button>
+                    <button type="button" class="btn btn-secondary" id="finalizar_compra">Finalizar compra</button>
+                    
+                </div>
+                <div>
+                    <h3>Total a abonar: $ </h3> 
+                    <h3 id="Total" ></h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class="text-center">
+        <p>Seguinos en nuestras redes sociales</p>
+        <img src="./Nueva Carpeta/instagram.png" style="float:left; width: 20px; height:20px">
+
+        <img src="./Nueva Carpeta/facebook.png" style="float:left; width: 20px; height:20px;">
+        <p>Todos los derechos reservados</p>
+        
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+   
+    <!--TOASTIFY-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    
+    <!--SWEET ALERT-->    
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/app.js"></script>
+</body>
+
+</html>
